@@ -1,0 +1,16 @@
+.button{
+     -fx-background-color: lime;
+     -fx-font-size: 16;
+ }
+
+ .label{
+     -fx-font-size: 18;
+ }
+
+.button:hover {
+     -fx-background-color: red;
+     -fx-font-size: 16;
+ }
+.root{
+    -fx-background-color: aqua;
+}

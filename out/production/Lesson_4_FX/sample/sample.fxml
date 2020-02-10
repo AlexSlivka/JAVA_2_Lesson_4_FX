@@ -1,0 +1,20 @@
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.GridPane?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.VBox?>
+<?import java.net.URL?>
+<VBox fx:controller="sample.Controller"
+      xmlns:fx="http://javafx.com/fxml" alignment="center" >
+    <stylesheets>
+        <URL value="@/sample/style.css"/>
+    </stylesheets>
+    <Label text="Переписка"/>
+    <TextArea fx:id="textAreaCorrespondence"/>
+    <Label text="Ввод сообщения"/>
+    <TextField fx:id="textFieldEnterMessage" onAction="#enterMessage" prefHeight="50"/>
+    <Button text="Отослать сообщение" onAction="#sendMessage"/>
+</VBox>
